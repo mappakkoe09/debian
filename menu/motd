@@ -1,0 +1,18 @@
+blue='\e[1;34m'
+green='\e[0;23m'
+purple='\e[1;35m'
+cyan='\e[1;36m'
+red='\e[1;32m'
+
+echo -e $purple "      =====================================================" 
+echo -e $green "      #                                                   #" 
+echo -e $purple "      #     [SELAMAT DATANG DI VPS - MuLuu09]      #" 
+echo -e $blue "      #                                                   #" 
+echo -e $green "      #           WhatsApp       : +601131731782           #" 
+echo -e $red "      #           Telegram       : @MuLuu09             #" 
+echo -e $blue "      #           Facebook       : fb.com/mhd.fazren      #" 
+echo -e $red "      #           InstaGram        : mhdfazren_                 #" 
+echo -e $purple "      #           Silahkan Ketik : menu (enter)           #" 
+echo -e $green "      #                                                   #" 
+echo -e $cyan "      #    Copyright: © MuLuu09™ Premium 2017    #" 
+echo -e $purple "      =====================================================" 
