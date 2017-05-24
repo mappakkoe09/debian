@@ -223,12 +223,12 @@ echo "" | lolcat
 echo "" | lolcat
 echo "        ----[SELAMAT DATANG DI VPS MappakkoE  - ]---"| boxes -d dog | lolcat
 echo "        ====================================================="| lolcat
-echo "        #           WhatsApp     : +601131731782             #"| lolcat
-echo "        #           Telegram     : @MuLuu09               #"| lolcat
+echo "        #           WhatsApp     : +601131731782            #"| lolcat
+echo "        #           Telegram     : @MuLuu09                 #"| lolcat
 echo "        #           Facebook     : fb.com/mhd.Fazren        #"| lolcat
-echo "        #           InstaGram      : mhdfazren_                   #"| lolcat
+echo "        #           InstaGram    : mhdfazren_               #"| lolcat
 echo "        #                                                   #"| lolcat
-echo "        #    Copyright: © MuLuu09™ Premium 2017    #"| lolcat
+echo "        #         Copyright: © MuLuu09™ Premium 2017        #"| lolcat
 echo "        ====================================================="| lolcat
 echo ""
 PS3='Silahkan ketik nomor pilihan anda lalu tekan ENTER: '
@@ -245,9 +245,9 @@ do
 	    break
             ;;
 	"Buat User Trial")
-	uname=trial-`</dev/urandom tr -dc X-Z0-9 | head -c4`
+	uname=trial-`</dev/urandom tr -dc 0-9 | head -c1`
 	masaaktif="1"
-	pass=`</dev/urandom tr -dc a-f0-9 | head -c9`
+	pass=`</dev/urandom tr -dc 0-9 | head -c5`
 	clear
 	create_user
 	break
