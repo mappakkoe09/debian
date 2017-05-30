@@ -294,7 +294,7 @@ do
 	    service dropbear restart
 	    echo "------------+ AUTO KILL SUDAH DI AKTIFKAN BOSS +--------------" | lolcat
 	    
-	echo "Dasar pelit!!! user ente marah2 jangan salahkan ane ya boss
+	echo "Dasar pelit!!! user anda marah2 jangan salahkan saya ya boss
 	nanti jangan lupa di matikan boss" | boxes -d boy | lolcat
 		break
 		;;
@@ -328,7 +328,7 @@ do
 		read -p "Ketik user yang akan di ganti passwordnya: " uname
 		read -p "Silahkan isi passwordnya: " pass
 		echo "$uname:$pass" | chpasswd
-		echo "Mantaffff gan!!! Password $uname user ente sudah di ganti..."| boxes -d peek | lolcat
+		echo "Mantaffff boss!!! Password $uname user anda sudah di ganti..."| boxes -d peek | lolcat
 		break
 		;;
 		"Ganti Password VPS")
